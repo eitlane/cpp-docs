@@ -154,7 +154,6 @@ If any non-default constructors are declared, the compiler does not provide a de
 class Box {
     Box(int width, int length, int height)
         : m_width(width), m_length(length), m_height(height){}
-};
 private:
     int m_width;
     int m_length;
